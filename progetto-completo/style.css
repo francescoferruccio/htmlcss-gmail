@@ -1,0 +1,85 @@
+body{
+  background-image: url("img/wood.jpg");
+}
+
+#corpo-centrale {
+  width: 50%;
+  margin: auto;
+}
+
+header{
+  border-bottom: 3px solid white;
+}
+
+h1{
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+}
+
+.logo {
+  width: 150px;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#ricerca {
+  color: white;
+  font-size: 32px;
+  border-bottom: 3px solid white;
+  padding: 10px;
+}
+
+.barra_ricerca {
+  height: 30px;
+  width: 100px;
+  background-color: grey;
+  display: inline-block;
+}
+
+.button {
+  display: inline;
+}
+
+.non_letti {
+  padding: 10px;
+  background-color: orange;
+  border-radius: 100%;
+}
+
+#inbox {
+  border-bottom: 3px solid white;
+  padding: 10px 0;
+}
+
+.mail {
+  background-color: #bababa;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.unread {
+  background-color: white;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+.oggetto {
+  font-weight: bold;
+}
+
+.testo {
+  color: #262625;
+}
+
+footer {
+  color: white;
+  height: 200px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer_big {
+  font-size: 30px;
+  font-weight: bold;
+}

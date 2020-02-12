@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Div che contiente tutto il corpo centrale per centrarlo senza toccare il body -->
+    <div id="corpo-centrale">
+      <!-- Titolo -->
+      <header>
+        <img class="logo" src="img/logo.png" alt="logo gmail">
+        <h1>Gmail</h1>
+      </header>
+
+      <main>
+        <!-- Sezione ricerca -->
+        <section id="ricerca">
+          <form action="index.html" method="get">
+            <input type="text" name="testo_ricerca" placeholder="Search">
+            <input type="submit" name="invio" value="VAI">
+          </form>
+          <p>You have <span class="non_letti">30</span> unread messages</p>
+
+        </section>
+
+        <!-- Sezione Mail -->
+        <section id="inbox">
+          <div class="mail">
+            <input type="checkbox" name="check" value="">
+            <span class="oggetto">&#9733; Oggetto della email - </span>
+            <span class="testo">testo della email</span>
+          </div>
+          <div class="mail, unread">
+            <input type="checkbox" name="check" value="">
+            <span class="oggetto">&#9733; Oggetto della email - </span>
+            <span class="testo">testo della email</span>
+          </div>
+          <div class="mail">
+            <input type="checkbox" name="check" value="">
+            <span class="oggetto">&#9733; Oggetto della email - </span>
+            <span class="testo">testo della email</span>
+          </div>
+          <div class="mail">
+            <input type="checkbox" name="check" value="">
+            <span class="oggetto">&#9733; Oggetto della email - </span>
+            <span class="testo">testo della email</span>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Footer -->
+      <footer>
+        <span class="footer_big">GMail</span> powered by Francesco
+      </footer>
+    </div>
+  </body>
+</html>

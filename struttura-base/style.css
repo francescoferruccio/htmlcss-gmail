@@ -1,0 +1,57 @@
+header{
+  height: 200px;
+  background-color: brown;
+  margin-bottom: 50px;
+  border-bottom: 5px solid black;
+}
+
+h1{
+  display: inline;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+}
+
+#ricerca {
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 50px;
+  border-bottom: 5px solid black;
+  padding: 10px;
+}
+
+.barra_ricerca {
+  height: 30px;
+  width: 100px;
+  background-color: grey;
+  display: inline-block;
+}
+
+.button {
+  display: inline;
+}
+
+#inbox {
+  height: 200px;
+  background-color: yellow;
+  margin-bottom: 50px;
+  border-bottom: 5px solid black;
+  padding: 10px 0;
+}
+
+.mail {
+  border: 2px solid black;
+  background-color: white;
+}
+.testo {
+  color: red;
+}
+
+footer {
+  height: 200px;
+  background-color: green;
+  text-align: center;
+}
