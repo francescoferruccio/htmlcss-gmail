@@ -37,8 +37,10 @@ h1{
   display: inline-block;
 }
 
-.button {
-  display: inline;
+input[name="invio"]:hover {
+  background-color: black;
+  border-color: grey;
+  color: white;
 }
 
 .non_letti {
@@ -56,6 +58,10 @@ h1{
   background-color: #bababa;
   border: 2px solid black;
   padding: 2px;
+}
+
+.mail:hover, .unread:hover{
+  border-color: yellow;
 }
 
 .unread {
